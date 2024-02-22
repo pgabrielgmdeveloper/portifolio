@@ -1,14 +1,16 @@
 <article>
-  <div>
+  <div class="infos">
     <h3 class="titulo">{{ title }}</h3>
     <div class="details">
-      <p class="descricao">{{ description }}</p>
-      <ul class="habilidades">
-        <p>Tecnologias utilizadas: </p>
-        <li *ngFor="let skill of skills">{{ skill }}</li>
-      </ul>
+      <p class="description">{{ description }}</p>
+      <div>
+        <p>Tecnologias utilizadas </p>
+        <ul class="skills">
+          <li *ngFor="let skill of skills">{{ skill }}</li>
+        </ul>
+      </div>
     </div>
   </div>
   <img class="{{ isLeft ? 'left': 'right'}}" src="../../../assets/serasaLogo.png" alt="Experience Image">
-
+  <div class="e1"></div>
 </article>

@@ -1,1 +1,18 @@
-<p>experience works!</p>
+<section>
+    <h2>EXPE<br>RIÊN<br>CIA</h2>
+    <div>
+        <p>
+            Sou um jovem apaixonado por computação e tecnologia com experiência em
+desenvolvimento de software onde tive a oportunidade de atuar em projetos de diversas áreas como agronegocio, marketplace, financeiros dentre outros, sempre utilizando boas praticas de programação também pude amadurecer e ganhar conhecimentos nas linaguegens JAVA, KOTLIN, C#, PYTHON, GO e também em outras tecnologias como: Docker, Kubernets, jenkins, AWS, filas de mensagerias dentre outras tecnologias.
+        </p>
+        @for (experience of experiences; track $index) {
+            <app-experience-card
+                [title]="experience.title" 
+                [description]="experience.description" 
+                [skills]="experience.skills"
+                [image]="experience.img"
+                [isLeft]="$index % 2 === 1" 
+            />
+        }
+    </div>
+</section>

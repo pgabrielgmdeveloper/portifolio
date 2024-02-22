@@ -6,12 +6,12 @@
             <div class="d2" ></div>
             <h1>Desenvolvedor <br> De Software</h1>
             <p>Localizado Em Sergipe 🏖️</p>
-            
         </div>
 </main>
-<h2>Experiencias </h2>
-<section class="professional-experience">
-    @for (experience of experiences; track $index) {
+
+<app-experience/>
+
+<!-- @for (experience of experiences; track $index) {
         <app-experience-card
             [title]="experience.title" 
             [description]="experience.description" 
@@ -20,6 +20,5 @@
             [isLeft]="$index % 2 === 1" 
         />
     }
-   
+    -->
 
-</section>

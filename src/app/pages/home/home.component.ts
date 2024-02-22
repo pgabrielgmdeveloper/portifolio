@@ -3,11 +3,12 @@ import { ExperienceCardComponent } from '../../components/experience-card/experi
 import { Experience } from '../../models/experience.model';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from '../../components/header/header.component';
+import { ExperienceComponent } from '../../components/experience/experience.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ExperienceCardComponent, HeaderComponent],
+  imports: [ExperienceComponent, HeaderComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
