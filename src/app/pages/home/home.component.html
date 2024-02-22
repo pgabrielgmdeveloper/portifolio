@@ -1,0 +1,24 @@
+<app-header/>
+<main>
+    <img src="../../../assets/PAULO.jpg" alt="foto de PAULO MATIAS">
+    <div>
+        <div>
+            <h1>Desenvolvedor <br> De Software</h1>
+            <p>Localizado Em Sergipe 🏖️</p>
+          </div>
+    </div>
+</main>
+<h2>Experiencias </h2>
+<section class="professional-experience">
+    @for (experience of experiences; track $index) {
+        <app-experience-card
+            [title]="experience.title" 
+            [description]="experience.description" 
+            [skills]="experience.skills"
+            [image]="experience.img"
+            [isLeft]="$index % 2 === 1" 
+        />
+    }
+   
+
+</section>
