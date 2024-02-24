@@ -36,6 +36,22 @@ export class ProjectsComponent {
         title: "Desenvolvedor",
         isActive: true
       },
+      {
+        id:"3",
+        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
+        img: "../../../assets/PAULO.jpg",
+        skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
+        title: "Desenvolvedor",
+        isActive: true
+      },
+      {
+        id:"4",
+        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
+        img: "../../../assets/serasaLogo.png",
+        skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
+        title: "Desenvolvedor",
+        isActive: true
+      },
     ]
     this.images = this.projects.map(project => project.img); 
   }

@@ -1,0 +1,34 @@
+section {
+    display: flex;
+    h2 {
+        color: #f6dbdb;
+        font-size: 80px;
+    }
+    article {
+        padding: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        background-color: #f5f6fa;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3); /* Valores ajustados para criar a elevação */
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .description {
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                justify-content: flex-start;
+                max-width: 50%;
+                list-style: none;
+                gap: 5px;
+                li {
+                    background-color: #FFF;
+                    padding: 2px 4px;
+                    justify-self: center;
+                    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
+                }
+            }
+        }
+    }
+}
