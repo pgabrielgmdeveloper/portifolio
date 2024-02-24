@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { ExperienceCardComponent } from '../../components/experience-card/experience-card.component';
 import { Experience } from '../../models/experience.model';
-import { CommonModule } from '@angular/common';
 import { HeaderComponent } from '../../components/header/header.component';
 import { ExperienceComponent } from '../../components/experience/experience.component';
+import { ProjectsComponent } from '../../components/projects/projects.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ExperienceComponent, HeaderComponent],
+  imports: [ExperienceComponent, HeaderComponent, ProjectsComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
+  providers: [NgbCarouselConfig]
+
 })
 export class HomeComponent implements OnInit {
   
