@@ -1,5 +1,6 @@
 section {
     display: flex;
+    gap: 20px;
     h2 {
         color: #f6dbdb;
         font-size: 80px;
@@ -11,8 +12,10 @@ section {
         background-color: #f5f6fa;
         box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3); /* Valores ajustados para criar a elevação */
         position: relative;
+        
         img {
             width: 100%;
+            
         }
         .description {
             ul {
@@ -22,6 +25,7 @@ section {
                 max-width: 50%;
                 list-style: none;
                 gap: 5px;
+                
                 li {
                     background-color: #FFF;
                     padding: 2px 4px;

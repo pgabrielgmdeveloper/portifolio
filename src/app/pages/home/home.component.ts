@@ -4,11 +4,12 @@ import { HeaderComponent } from '../../components/header/header.component';
 import { ExperienceComponent } from '../../components/experience/experience.component';
 import { ProjectsComponent } from '../../components/projects/projects.component';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ExperienceComponent, HeaderComponent, ProjectsComponent],
+  imports: [ExperienceComponent, HeaderComponent, ProjectsComponent,FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
   providers: [NgbCarouselConfig]

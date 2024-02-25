@@ -1,0 +1,17 @@
+footer {
+    div {
+        display: flex;
+        p {
+            max-width: 60%;
+        }
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            text-decoration: none;
+            list-style: none;
+        }
+    }
+}

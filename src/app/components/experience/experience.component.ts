@@ -16,31 +16,25 @@ export class ExperienceComponent implements OnInit {
     this.experiences = [
       {
         description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "dasdasdasdad",
+        img: "../../../assets/serasaLogo.png",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
         title: "Desenvolvedor"
       },
       {
         description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "dasdasdasdad",
+        img: "../../../assets/atos.jpg",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS"],
         title: "Desenvolvedor"
       },
       {
         description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "dasdasdasdad",
+        img: "../../../assets/gubee.png",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS"],
         title: "Desenvolvedor"
       },
       {
         description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "dasdasdasdad",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS"],
-        title: "Desenvolvedor"
-      },
-      {
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "dasdasdasdad",
+        img: "../../../assets/sm.png",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS"],
         title: "Desenvolvedor"
       }

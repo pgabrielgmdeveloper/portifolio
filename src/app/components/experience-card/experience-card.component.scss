@@ -6,12 +6,12 @@ article {
     border-radius: 10px;
     align-items: center;
     position: relative;
+    gap: 10px;
     img {
         border-radius: 20px;
         max-width: 100px;
         max-height: 100px;
     }
-    align-items: center;
     ul {
         list-style: none;
         display: grid;
@@ -29,7 +29,7 @@ article {
     .details {
         display: flex;
         div {
-            justify-self: center;
+            justify-self: flex-start;
 
         }
     }

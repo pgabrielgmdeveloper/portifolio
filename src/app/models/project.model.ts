@@ -6,4 +6,5 @@ export interface Project {
     skills: Array<string>
     img: string
     isActive: boolean
+    status: string
 }

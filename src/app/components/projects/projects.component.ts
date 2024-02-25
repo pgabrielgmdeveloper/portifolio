@@ -26,7 +26,8 @@ export class ProjectsComponent {
         img: "../../../assets/serasaLogo.png",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
         title: "Desenvolvedor",
-        isActive: true
+        isActive: true,
+        status: "concluido"
       },
       {
         id:"2",
@@ -34,7 +35,8 @@ export class ProjectsComponent {
         img: "../../../assets/PAULO.jpg",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
         title: "Desenvolvedor",
-        isActive: true
+        isActive: true,
+        status: "concluido"
       },
       {
         id:"3",
@@ -42,7 +44,8 @@ export class ProjectsComponent {
         img: "../../../assets/PAULO.jpg",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
         title: "Desenvolvedor",
-        isActive: true
+        isActive: true,
+        status: "concluido"
       },
       {
         id:"4",
@@ -50,7 +53,8 @@ export class ProjectsComponent {
         img: "../../../assets/serasaLogo.png",
         skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
         title: "Desenvolvedor",
-        isActive: true
+        isActive: true,
+        status: "em andamento"
       },
     ]
     this.images = this.projects.map(project => project.img); 
