@@ -19,4 +19,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Site on prod
-<a href="http://koymatt-programmer.online:4200/)http://koymatt-programmer.online:4200" target="_blank">Site em produção</a>
+<a href="http://koymatt-programmer.online:4200" target="_blank">Site em produção</a>
