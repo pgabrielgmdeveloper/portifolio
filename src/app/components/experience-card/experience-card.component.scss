@@ -1,4 +1,9 @@
 article {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3); /* Valores ajustados para criar a elevação */
+    p {
+        color: #747d8c;
+    }
+    
     margin-top: 20px;
     display: flex;
     background-color: #f5f6fa;
@@ -17,9 +22,14 @@ article {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
+        
         flex-wrap: wrap;
         li {
-            justify-self: start;
+            display: flex;
+            width: 75px;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
             background-color: #FFF;
             padding: 2px 4px;
             border-radius: 5px;
@@ -34,7 +44,7 @@ article {
         }
     }
     .description {
-        max-width: 75%;
+        align-self: center;      
     }
 
     .e1 {

@@ -22,40 +22,31 @@ export class ProjectsComponent {
     this.projects = [
       {
         id:"1",
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "../../../assets/serasaLogo.png",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
-        title: "Desenvolvedor",
+        description: "Projeto de banco virtual para a EBD(Escola biblica dominical) onde os alunos podem receber saldo e fazer transações entre eles podendo comprar ou vender produtos na EBD com o saldo disponivel",
+        img: "../../../assets/ebbank.png",
+        skills: ["Python", "FastApi", "Jinja2", "Docker", "MongoDB"],
+        title: "EbBank",
         isActive: true,
         status: "concluido"
       },
       {
         id:"2",
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "../../../assets/PAULO.jpg",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
-        title: "Desenvolvedor",
+        description: "Projeto portifolio online usado para mostrar as experiencias profissionais e experiencias na area de tecnologia assim como o meu contato",
+        img: "../../../assets/portifolio.png",
+        skills: ["HTML", "CSS", "javasacript", "Angular", "Docker"],
+        title: "Portifolio Online",
         isActive: true,
         status: "concluido"
       },
       {
-        id:"3",
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "../../../assets/PAULO.jpg",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
-        title: "Desenvolvedor",
+        id: "3",
+        description: "API de Autenticação e Authorização, nele é posssivel criar um produto(API) e adicionar usuarios com permissoes de criação, deleção, atualização e leitura. Assim é possivel gerenciar o Nivel de Acesso de cada usuario em cada produto(API) diferente",
+        img: "../../../assets/AUTHH.jpg",
+        skills: ["C#", "dotnet", "SQL", "Angular", "Docker"],
+        title: "Auth API",
         isActive: true,
         status: "concluido"
-      },
-      {
-        id:"4",
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
-        img: "../../../assets/serasaLogo.png",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
-        title: "Desenvolvedor",
-        isActive: true,
-        status: "em andamento"
-      },
+      }
     ]
     this.images = this.projects.map(project => project.img); 
   }

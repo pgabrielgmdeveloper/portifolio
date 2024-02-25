@@ -5,6 +5,12 @@ section {
         color: #f6dbdb;
         font-size: 80px;
     }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        color: #747d8c;
+    }
     article {
         padding: 20px;
         margin: 20px;
@@ -12,10 +18,8 @@ section {
         background-color: #f5f6fa;
         box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3); /* Valores ajustados para criar a elevação */
         position: relative;
-        
         img {
             width: 100%;
-            
         }
         .description {
             ul {
@@ -25,10 +29,12 @@ section {
                 max-width: 50%;
                 list-style: none;
                 gap: 5px;
-                
                 li {
+                    width: 75px;
+                    text-align: center;
                     background-color: #FFF;
                     padding: 2px 4px;
+                    border-radius: 5px;
                     justify-self: center;
                     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
                 }

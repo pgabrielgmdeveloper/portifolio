@@ -1,8 +1,16 @@
 footer {
+    h2 {
+        color: #f6dbdb;
+        font-size: 80px;
+    }
     div {
+        
         display: flex;
+        align-self: center;
+        gap: 100px;
         p {
             max-width: 60%;
+            color: #747d8c;
         }
         ul {
             li {
@@ -13,5 +21,8 @@ footer {
             text-decoration: none;
             list-style: none;
         }
+    }
+    span {
+        color: #747d8c;
     }
 }

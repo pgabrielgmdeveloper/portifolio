@@ -15,27 +15,27 @@ export class ExperienceComponent implements OnInit {
   ngOnInit(): void {
     this.experiences = [
       {
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
+        description: "Integração com APIs no ramo de renegociações de dividas tanto SOAP quanto REST, sempre  utilizando boas praticas de programação, Trabalho com uma estrutura de micro serviços, principalmente em Python com FastAPI e GO, utilização de AWS (s3, ec2, rds, sqs, lambda), Docker e Kubernetes, refinamento de novos projetos",
         img: "../../../assets/serasaLogo.png",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS","Jenkins", "tarara"],
-        title: "Desenvolvedor"
+        skills: ["Python", "Kubernets", "Docker","AWS","Jenkins", "go", "Arquitetura Limpa",    "splunk", "datadog", "redis", "SQL", "filas SQS"],
+        title: "Desenvolvedor de software at Serasa"
       },
       {
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
+        description: "Trabalho no desenvolvimento de melhorias e novas funcionalidades para os serviços de integração bancária e renegociação de boletos utilizando C# com .NET, SQLSERVER e boas praticas de programação. Partipação no refinamento de melhorias do produto Sustentação das API no dia dia no modelo Kambam	Responsável por implementar o Strategy Partner para a leitura de arquivos CNAB.",
         img: "../../../assets/atos.jpg",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS"],
-        title: "Desenvolvedor"
+        skills: ["C#", "SQL", ".net", "html", "CNAB", ],
+        title: "Desenvolvedor de software at Atos Capital"
       },
       {
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
+        description: "Trabalhando no desenvolvimento de melhorias e novas funcionalidadespara as APIs de integração com marketplaces, como Magazine Luiza, Amazon, Mercado Livre, entre outros, utilizando Java, Kotlin e Arquitetura Hexagonal. MongoDB Responsável pelo desenvolvimento de paginas SPA com Angular ",
         img: "../../../assets/gubee.png",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS"],
-        title: "Desenvolvedor"
+        skills: ["JAVA", "KOTLIN", "MONGODB", "Docker", "AWS", "Arquitetura Hexagonal"],
+        title: "Desenvolvedor de software at Gubee"
       },
       {
-        description: "Desenvolvimento APIs que fomentam uma cadeia de micro serviços utilizando python, Clean Arachiteture, Docker, Kubernets, AWS e soluções de cacche",
+        description: "Trabalhando no desenvolvimento do VIGIAGROPEC, Sistema de vigilancia agropecuaria utilizando java e spring boot e fazendo a geração de relatorios com jasper reports e ajustes nas paginas SPA com angular",
         img: "../../../assets/sm.png",
-        skills: ["Python", "Go", "Kubernets", "Docker", "AWS"],
+        skills: ["JAVA", "SQL", "spring boot", "jenkins", "angular"],
         title: "Desenvolvedor"
       }
     ]
