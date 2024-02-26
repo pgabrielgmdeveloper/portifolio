@@ -4,7 +4,11 @@ section {
         margin-right: 50px;
         color: #f6dbdb;
         line-height: 0.9;
+        max-width: 200px;
+        word-wrap: break-word;
+
     }
+    
     div {
         p {
             max-width: 70%;
@@ -15,5 +19,19 @@ section {
     }
     display: flex;
     justify-content: space-between;
-    
+    @media screen and (max-width: 1400px) {
+        h2 {
+            max-width: 100%;
+            text-align: start;
+            font-size: 40px;
+        }
+        display: grid;
+        align-items: center;
+        div {
+            p {
+                max-width: 100%;
+            }
+        }
+        
+    }
 }

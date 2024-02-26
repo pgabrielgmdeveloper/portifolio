@@ -6,14 +6,26 @@
     letter-spacing: 0.5px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1400px) {
+    .main {
+      
+    }
+}
+
 .main {
     padding: 0 350px;
     background-color: #FFF;
     display: block;
-    margin: 0 auto;
 }
+
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { font-family: Roboto, "Helvetica Neue", sans-serif; }
+@media screen and (max-width: 1200px) {
+    .main {
+        padding: 0;
+    }
+}

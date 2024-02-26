@@ -57,5 +57,11 @@ article {
         left: -10px;
         top: 20px;
     }
+
+    @media screen and (max-width: 1400px) {
+        .details {
+            display: grid;
+        }
+    }
   
 }

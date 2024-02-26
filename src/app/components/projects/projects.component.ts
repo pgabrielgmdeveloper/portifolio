@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 import { NgbModule,NgbCarouselConfig, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { Project } from '../../models/project.model';
 
@@ -10,10 +10,11 @@ import { Project } from '../../models/project.model';
   styleUrl: './projects.component.scss',
   providers: [NgbCarouselConfig]
 })
-export class ProjectsComponent {
+export class ProjectsComponent implements OnInit {
 
   projects: Array<Project> = []
   images!: Array<string>;
+  screenWith!: number
   constructor(config: NgbCarouselConfig) {
     config.interval = 10000;
 		config.wrap = false;
@@ -49,6 +50,11 @@ export class ProjectsComponent {
       }
     ]
     this.images = this.projects.map(project => project.img); 
+  }
+  ngOnInit(): void {
+    
+    this.screenWith = window.innerWidth;
+    console.log(this.screenWith)
   }
 
 }

@@ -1,6 +1,13 @@
 @if (projects) {
     <section>
-        <h2>PROJE<br>TOS <br>PESS<br>OAIS</h2>
+       
+        @if (screenWith >= 1400) {
+            <h2>PROJ<br>ETOS <br> PESS<br>OAIS</h2>
+        } @else {
+            <h2>PROJETOS<br>PESSOAIS</h2>
+        }
+
+        
         <ngb-carousel>
             @for (project of projects; track $index) {
                 <ng-template ngbSlide>

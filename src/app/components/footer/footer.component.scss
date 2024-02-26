@@ -26,4 +26,19 @@ footer {
     span {
         color: #747d8c;
     }
+    @media screen and (max-width: 650px) {
+        div {
+            gap: 0;
+            display: grid;
+            p {
+                max-width: 100%;
+                 color: #747d8c;
+             }
+        }
+        
+        ul {
+            padding-left: 0px;
+        }
+        
+    }
 }
